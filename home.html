@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <meta name="author" content="이윤진">
+  <meta name="description" content="11번가 코딩테스트">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+  <div class="body__container">
+    <!-- HEADER -->
+    <header class="section">
+      <div class="inner">
+        <div class="menu-back float--left">
+          <div class="btn-back">
+            <a href="/home.html" class="btn btn--primary back" id="back" style="display: none;">BACK</a>
+          </div>
+        </div>
+        <div class="date" id="date">
+          <!-- 년월일시분초 -->
+        </div>
+        <div class="menu-new float--right">
+          <div class="btn-new">
+            <a href="#" class="btn btn--primary new" id="new" style="display: none;">NEW</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTAINER -->
+    <div id="container">
+      <section class="section section--visual">
+          <div class="apps">
+            <!-- APPS -->
+            <div class="app" id="app-alarm">
+              <a href="#alarm">알람</a>
+            </div>
+            <div class="app" id="app-memo">
+              <a href="#memo">메모</a>
+            </div>
+            <div class="app" id="app-photo">
+              <a href="#photo">사진</a>
+            </div>
+          </div>
+      </section>
+    </div>
+  </div>
+  <script src="js/home.js"></script>
+  <script src="js/route.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/init.js"></script>
+</body>
+
+</html>
